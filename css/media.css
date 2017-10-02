@@ -1,0 +1,67 @@
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  h1 {
+    margin-top: 550px;
+    margin-bottom: 350px;
+    font-size: 99px; } }
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  nav img {
+    height: 65px; } }
+/* Small Devices, Tablets */
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  body {
+    font-size: 18px; }
+
+  nav img {
+    height: 55px; }
+
+  h1 {
+    margin: 350px auto 150px;
+    font-size: 50px; }
+
+  hr {
+    padding-bottom: 35px; }
+
+  h2 {
+    font-size: 24px;
+    letter-spacing: 3px;
+    margin: 0 auto 20px; }
+
+  h6 {
+    font-size: 16px;
+    font-weight: 700; }
+
+  p {
+    font-size: 20px;
+    margin-bottom: 15px; }
+
+  ul:first-of-type {
+    letter-spacing: 2px; }
+    ul:first-of-type li {
+      padding: 20px 0; }
+
+  footer {
+    padding-bottom: 0; }
+    footer ul.social-media-icons {
+      font-size: 40px; }
+      footer ul.social-media-icons li {
+        padding: 20px; }
+      footer ul.social-media-icons + h6 {
+        margin-bottom: 0;
+        bottom: -50px;
+        text-align: right;
+        padding-right: 40px; }
+    footer img {
+      float: right; } }
+/* Large Devices, Wide Screens */
+/*==========  Non-Mobile First Method  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+/*# sourceMappingURL=media.css.map */
+
+/*# sourceMappingURL=media.css.map */
