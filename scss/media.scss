@@ -10,9 +10,7 @@
 
   /* Extra Small Devices, Phones */
   @media only screen and (min-width : 480px) {
-    nav img {
-      height: 65px;
-    }
+
   }
 
   /* Small Devices, Tablets */
@@ -24,9 +22,6 @@
   @media (min-width: 992px) {
       body {
         font-size: 18px;
-      }
-      nav img {
-        height: 55px;
       }
       h1 {
         margin: 350px auto 150px;
@@ -61,7 +56,7 @@
           li {
             padding: 20px;
           }
-          +h6 {
+          + h6 {
             margin-bottom: 0;
             bottom: -50px;
             text-align: right;
