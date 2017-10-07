@@ -1,0 +1,36 @@
+/* Base styles / Global Styles */
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+/* Typography styling */
+h1 {
+  font-size: 3em;
+}
+
+/* Navbar styling */
+nav {
+  a {
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.35em;
+    text-align: center;
+  }
+  img {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    height: 40px;
+  }
+  .navbar {
+    margin-top: 25px;
+    padding: 0;
+  }
+}
+nav.navbar.navbar-light {
+  padding: 20px 0;
+}
+/* Header styling */
+header {
+  margin-top: 100px;
+}

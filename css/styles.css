@@ -1,24 +1,32 @@
-/*Base styling*/
+/* Base styles / Global Styles */
+body {
+  font-family: 'Josefin Sans', sans-serif; }
+
+/* Typography styling */
 h1 {
-	margin-top: 400px;
-	margin-bottom: 200px;
-	font-size: 65px;
-}
-h2  {
-	text-transform: uppercase;
-  	letter-spacing: 2px;
-  	font-size: 20px;
-	font-weight: 600;
-}
+  font-size: 3em; }
 
-hr {
-	border-top: 4px solid black;
-	width: 10%;
-	float: left;
-}
+/* Navbar styling */
+nav a {
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.35em;
+  text-align: center; }
+nav img {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  height: 40px; }
+nav .navbar {
+  margin-top: 25px;
+  padding: 0; }
 
-/* LOGO STYLING */
-.logo img {
-	margin-top: 80px;
-	height: 150px;
-}
+nav.navbar.navbar-light {
+  padding: 20px 0; }
+
+/* Header styling */
+header {
+  margin-top: 100px; }
+
+/*# sourceMappingURL=styles.css.map */
