@@ -4,14 +4,12 @@ body {
 
 /* Typography styling */
 h1 {
-  font-size: 3em; }
+  font-size: 3.5em; }
 
 /* Navbar styling */
 nav a {
   text-decoration: none;
   font-size: 2em;
-  text-transform: uppercase;
-  letter-spacing: 0.35em;
   text-align: center; }
 nav img {
   margin-left: 0;
@@ -26,7 +24,10 @@ nav.navbar.navbar-light {
   padding: 20px 0; }
 
 /* Header styling */
-header {
-  margin-top: 100px; }
+header #splash {
+  margin: 200px 0; }
+
+section {
+  margin: 150px 0; }
 
 /*# sourceMappingURL=styles.css.map */
