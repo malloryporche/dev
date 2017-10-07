@@ -2,11 +2,17 @@
 body {
 	font-family: 'Josefin Sans', sans-serif;
 }
+li {
+  list-style-type: none;
+}
 /* Typography styling */
 h1 {
   font-size: 3.5em;
 }
-
+h3 {
+  text-align: center;
+  margin: 30px 0;
+}
 /* Navbar styling */
 nav {
   a {
@@ -31,8 +37,4 @@ nav.navbar.navbar-light {
 /* Header styling */
 header #splash {
   margin: 200px 0;
-}
-
-section {
-  margin: 150px 0;
 }
