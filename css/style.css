@@ -52,7 +52,6 @@ div.columns p.col-xs-12 {
 .nav {
   margin-top: 20px; }
   .nav li {
-    display: inline-block;
     text-transform: uppercase;
     font-size: 22px;
     letter-spacing: 2px; }
