@@ -41,8 +41,6 @@ header #splash {
 
 /* Carousel Styling */
 div.carousel-caption {
-  background-color: #000;
-  opacity: .6;
   top: 0;
   bottom: unset;
   padding: 7px;
@@ -50,6 +48,8 @@ div.carousel-caption {
   left: unset;
   h3, p {
     margin: 0;
+    color: black;
+    font-weight: bold;
   }
 }
 

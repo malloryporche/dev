@@ -36,15 +36,15 @@ header #splash {
 
 /* Carousel Styling */
 div.carousel-caption {
-  background-color: #000;
-  opacity: .6;
   top: 0;
   bottom: unset;
   padding: 7px;
   right: 0px;
   left: unset; }
   div.carousel-caption h3, div.carousel-caption p {
-    margin: 0; }
+    margin: 0;
+    color: black;
+    font-weight: bold; }
 
 /* Footer styling */
 footer {
