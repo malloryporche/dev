@@ -7,7 +7,7 @@ li {
 }
 /* Typography styling */
 h1 {
-  font-size: 3.5em;
+  font-size: 4em;
 }
 h3 {
   text-align: center;
@@ -37,4 +37,26 @@ nav.navbar.navbar-light {
 /* Header styling */
 header #splash {
   margin: 200px 0;
+}
+
+/* Carousel Styling */
+div.carousel-caption {
+  background-color: #000;
+  opacity: .6;
+  top: 0;
+  bottom: unset;
+  padding: 7px;
+  right: 0px;
+  left: unset;
+  h3, p {
+    margin: 0;
+  }
+}
+
+/* Footer styling */
+footer {
+  margin: 45px 0;
+  li.social-media-links {
+    display: inline-block;
+  }
 }
