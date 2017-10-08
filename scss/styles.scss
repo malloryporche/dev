@@ -5,7 +5,7 @@ body {
 
 /* Typography styling */
 h1 {
-  font-size: 4em;
+  font-size: 3.5em;
 }
 h3 {
   text-align: center;
@@ -38,6 +38,11 @@ header #splash {
   margin: 200px 0;
 }
 
+/* Folio Styling */
+section.row#folio {
+  background-color: whitesmoke;
+  padding: 45px 0;
+}
 /* Carousel Styling */
 div.carousel-caption {
   top: 0;
@@ -62,4 +67,16 @@ footer {
   ul, h6 {
     margin-top: 60px;
   }
+  h6 {
+    text-align: right;
+  }
+  i.fa::before {
+    font-size: 25px;
+    padding: 0 25px;
+  }
+}
+
+/* Section styling */
+section.row {
+  margin: 175px 0;
 }

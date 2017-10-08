@@ -4,7 +4,7 @@ body {
 
 /* Typography styling */
 h1 {
-  font-size: 4em; }
+  font-size: 3.5em; }
 
 h3 {
   text-align: center;
@@ -32,6 +32,11 @@ nav.navbar.navbar-light {
 header #splash {
   margin: 200px 0; }
 
+/* Folio Styling */
+section.row#folio {
+  background-color: whitesmoke;
+  padding: 45px 0; }
+
 /* Carousel Styling */
 div.carousel-caption {
   top: 0;
@@ -52,5 +57,14 @@ footer {
     list-style-type: none; }
   footer ul, footer h6 {
     margin-top: 60px; }
+  footer h6 {
+    text-align: right; }
+  footer i.fa::before {
+    font-size: 25px;
+    padding: 0 25px; }
+
+/* Section styling */
+section.row {
+  margin: 175px 0; }
 
 /*# sourceMappingURL=styles.css.map */
