@@ -2,9 +2,6 @@
 body {
   font-family: 'Josefin Sans', sans-serif; }
 
-li {
-  list-style-type: none; }
-
 /* Typography styling */
 h1 {
   font-size: 4em; }
@@ -28,7 +25,8 @@ nav .navbar {
   padding: 0; }
 
 nav.navbar.navbar-light {
-  padding: 20px 0; }
+  padding: 20px 0;
+  background-color: #fff; }
 
 /* Header styling */
 header #splash {
@@ -50,6 +48,9 @@ div.carousel-caption {
 footer {
   margin: 45px 0; }
   footer li.social-media-links {
-    display: inline-block; }
+    display: inline-block;
+    list-style-type: none; }
+  footer ul, footer h6 {
+    margin-top: 60px; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -2,9 +2,7 @@
 body {
 	font-family: 'Josefin Sans', sans-serif;
 }
-li {
-  list-style-type: none;
-}
+
 /* Typography styling */
 h1 {
   font-size: 4em;
@@ -33,6 +31,7 @@ nav {
 }
 nav.navbar.navbar-light {
   padding: 20px 0;
+  background-color: #fff;
 }
 /* Header styling */
 header #splash {
@@ -58,5 +57,9 @@ footer {
   margin: 45px 0;
   li.social-media-links {
     display: inline-block;
+    list-style-type: none;
+  }
+  ul, h6 {
+    margin-top: 60px;
   }
 }
