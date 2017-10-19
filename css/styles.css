@@ -38,12 +38,16 @@ nav.navbar.navbar-light {
 header #splash {
   margin: 200px 0; }
 
-/* Folio Styling */
+/* Portfolio Styling */
 section.row#folio {
   background-color: whitesmoke;
   padding: 45px 0; }
 
 /* Carousel Styling */
+div.carousel-inner {
+  border: 5px solid black;
+  padding: 30px; }
+
 div.carousel-caption {
   top: 0;
   bottom: unset;
