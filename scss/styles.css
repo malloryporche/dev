@@ -12,15 +12,10 @@ h3 {
   margin: 30px 0; }
 
 /* Navbar styling */
-nav ul {
-  margin: 0 auto; }
-  nav ul li {
-    padding: 20px;
-    text-transform: uppercase;
-    letter-spacing: 3px; }
 nav a {
   text-decoration: none;
-  font-size: 14px; }
+  font-size: 2em;
+  text-align: center; }
 nav img {
   margin-left: 0;
   margin-right: 0;
@@ -52,7 +47,7 @@ div.carousel-caption {
   left: unset; }
   div.carousel-caption h3, div.carousel-caption p {
     margin: 0;
-    color: orange;
+    color: black;
     font-weight: bold; }
 
 /* Footer styling */

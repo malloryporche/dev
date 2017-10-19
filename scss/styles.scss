@@ -1,8 +1,8 @@
 /* Base styles / Global Styles */
 body {
 	font-family: 'Josefin Sans', sans-serif;
+  position: relative;
 }
-
 /* Typography styling */
 h1 {
   font-size: 3.5em;
@@ -13,10 +13,17 @@ h3 {
 }
 /* Navbar styling */
 nav {
+	ul {
+		margin: 0 auto;
+		li {
+			padding: 20px;
+			text-transform: uppercase;
+			letter-spacing: 3px;
+		}
+	}
   a {
     text-decoration: none;
-    font-size: 2em;
-    text-align: center;
+    font-size: 14px;
   }
   img {
     margin-left: 0;
@@ -52,7 +59,7 @@ div.carousel-caption {
   left: unset;
   h3, p {
     margin: 0;
-    color: black;
+    color: orange;
     font-weight: bold;
   }
 }
@@ -70,7 +77,9 @@ footer {
   h6 {
     text-align: right;
   }
-  i.fa::before {
+  i.fa.fa-linkedin::before,
+  i.fa.fa-github::before,
+  i.fa.fa-facebook::before {
     font-size: 25px;
     padding: 0 25px;
   }
