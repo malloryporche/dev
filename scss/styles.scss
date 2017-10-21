@@ -53,8 +53,11 @@ section.row#folio {
 }
 /* Carousel Styling */
 div.carousel-inner {
-	border: 5px solid black;
-	padding: 30px;
+	border: 1px solid black;
+	margin: 30px 0;
+	img {
+		padding: 20px;
+	}
 }
 div.carousel-caption {
   top: 0;
