@@ -2,6 +2,10 @@
   h1 {
     font-size: 2.25em; } }
 
+@media only screen and (max-width: 660px) {
+  h2 {
+    text-align: center; } }
+
 footer h6, footer ul {
   text-align: center; }
 footer img {
