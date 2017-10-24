@@ -2,4 +2,10 @@
   h1 {
     font-size: 2.25em; } }
 
+footer h6, footer ul {
+  text-align: center; }
+footer img {
+  height: 50%;
+  float: right; }
+
 /*# sourceMappingURL=media.css.map */

@@ -5,6 +5,9 @@ body {
 	padding: 0;
 	margin: 0;
 }
+body.container {
+	padding: 0;
+}
 /* Typography styling */
 h1 {
   font-size: 3.5em;
@@ -40,18 +43,33 @@ nav {
   }
 }
 nav.navbar.navbar-light {
-  padding: 20px 20px 20px 0;
+	margin: 20px 10px;
+  padding: 40px 0px 20px 0;
   background-color: #fff;
 }
 /* Header styling */
-header #splash {
-  margin: 200px 0;
+header {
+	.row {
+		margin: 0 auto;
+	}
+	#splash {
+	  margin: 200px 0;
+	}
 }
 
 /* Portfolio Styling */
 section.row#folio {
   background-color: whitesmoke;
   padding: 45px 0;
+}
+a#resume {
+	text-align: center;
+	display: block;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	padding: 20px;
+	border: 1px solid black;
+	margin: 40px;
 }
 /* Carousel Styling */
 div.carousel-inner {
