@@ -19,10 +19,12 @@ h2 {
 /* Navbar styling */
 nav ul {
   margin: 0 auto; }
+  nav ul .nav.navbar-nav {
+    margin-right: 0; }
   nav ul li {
     padding: 20px;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     font-weight: bolder; }
 nav a {
   text-decoration: none;
@@ -35,6 +37,8 @@ nav img {
 nav .navbar {
   margin-top: 25px;
   padding: 0; }
+nav .navbar-nav {
+  margin-right: 0; }
 
 nav.navbar.navbar-light {
   margin: 20px 10px;
