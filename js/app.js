@@ -1,3 +1,13 @@
-const myName = "Mallory";
+const navigationLinks = document.getElementsByClassName('fadeIn');
 
-console.log(myName);
+window.onload = function() {
+
+  fadeInNavigation();
+
+
+};
+
+function fadeInNavigation( ){
+  navigationLinks.add('visible');
+  console.log('Visible class added');
+}
