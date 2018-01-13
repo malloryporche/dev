@@ -8,6 +8,5 @@ window.onload = function() {
 };
 
 function fadeInNavigation( ){
-  navigationLinks.add('visible');
-  console.log('Visible class added');
+  navigationLinks.replace('fadeIn');
 }
