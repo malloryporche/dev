@@ -8,5 +8,5 @@ window.onload = function() {
 };
 
 function fadeInNavigation( ){
-  navigationLinks.replace('fadeIn');
+  console.log(navigationLinks);
 }
