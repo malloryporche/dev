@@ -1,0 +1,46 @@
+/*
+Site Name: Tenuto
+Author: Mallory Burke
+Author URI: https://www.malloryburke.com
+Description: Dev site
+Version: 1.0
+*/
+
+/*
+----------------------------------------------------------------
+Made with love by Mallory | https://www.malloryburke.com
+----------------------------------------------------------------
+
+1) RESET, BOOTSTRAP STYLING, general
+2) VARIABLES
+3) MIXINS
+4) GLOBAL STYLES
+5) HOME
+5) NAVIGATION
+6) SECTIONS
+7) SERVICES
+8) WORKS
+9) GALLERY
+10) TEAM
+11) CONTACT
+12) FOOTER
+13) CAROUSELS
+14) BUTTONS
+--------------
+*/
+
+
+/* CSS-RESET, BOOTSTRAP STYLING */
+// @import "_reset";
+
+/*  DEFINE VARIABLES */
+// @import "./_variables";
+
+/* DEFINE VARIABLES & MIXINS */
+@import "./_mixins";
+
+/*  GLOBAL STYLES  */
+// @import "./_globals";
+
+/*  PAGE: HOME & NAVIGATION  */
+// @import "pages/_home";

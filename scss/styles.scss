@@ -1,3 +1,6 @@
+/* DEFINE VARIABLES & MIXINS */
+@import "./_mixins";
+
 /* Base styles / Global Styles */
 body {
 	font-family: 'Josefin Sans', sans-serif;
@@ -8,6 +11,7 @@ body {
 }
 body.container {
 	padding: 15px;
+	padding-top: 0;
 }
 /*Typography styling */
  h1 {
@@ -60,8 +64,6 @@ nav {
 	}
 }
 nav.navbar {
-	margin: 20px 10px;
-  padding: 40px 0px 20px 0;
   background-color: #fff;
 }
 /* Header styling */
