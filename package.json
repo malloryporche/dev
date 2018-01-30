@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Mallory Burke's web development portfolio",
+  "main": "./js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malloryporche/dev.git"
+  },
+  "author": "Mallory Porche Burke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/malloryporche/dev/issues"
+  },
+  "homepage": "https://github.com/malloryporche/dev#readme"
+}

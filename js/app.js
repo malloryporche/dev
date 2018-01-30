@@ -1,7 +1,6 @@
 const navigationLinks = document.getElementsByClassName('fadeIn');
 
 window.onload = function() {
-
   fadeInNavigation();
 
 
