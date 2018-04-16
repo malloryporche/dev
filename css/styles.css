@@ -12,6 +12,11 @@ body.container {
   padding: 15px;
   padding-top: 0; }
 
+.block-content {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+
 /*Typography styling */
 h1 {
   font-size: 3em; }
@@ -59,7 +64,19 @@ nav.navbar {
 header .row {
   margin: 0 auto; }
 header #splash {
-  margin: 200px 15px; }
+  margin: 200px auto;
+  max-width: 1200px; }
+
+/* HireMe Styling */
+.parallax {
+  background-image: url("../imgs/female-dev-working.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  margin: 0 auto; }
 
 /* Portfolio Styling */
 section.row#folio {
@@ -76,7 +93,7 @@ a#resume {
   border: 1px solid black;
   margin: 40px;
   background-color: #fff;
-  font-weight: 800;
+  font-weight: bold;
   color: black;
   -webkit-transition-property: all;
   -moz-transition-property: all;
@@ -175,7 +192,11 @@ footer {
     text-align: center; }
 
 /* Section styling */
-section.row {
-  margin: 175px 15px; }
+section {
+  margin-top: 275px;
+  margin-bottom: 275px; }
+
+section#biography {
+  margin-bottom: 0; }
 
 /*# sourceMappingURL=styles.css.map */
